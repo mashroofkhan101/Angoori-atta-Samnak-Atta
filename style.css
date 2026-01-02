@@ -1,0 +1,157 @@
+body{
+    margin:0;
+    font-family:Arial, sans-serif;
+    background:#eaeaea;
+}
+
+/* HEADER */
+.header{
+    background:#131921;
+    color:white;
+    padding:10px;
+    display:flex;
+    align-items:center;
+}
+.logo{
+    font-size:24px;
+    font-weight:bold;
+    margin-right:20px;
+}
+.menu a:hover{
+    border: 4px solid yellow;
+}
+.search{
+    flex:1;
+}
+.search input{
+    width:90%;
+    padding:8px;
+}
+.header a{
+    color:white;
+    margin-left:15px;
+    text-decoration:none;
+}
+
+/* MENU */
+.menu{
+    background:#232f3e;
+    padding:10px;
+}
+.menu a{
+    color:white;
+    margin-right:15px;
+    text-decoration:none;
+    font-size:14px;
+}
+
+/* BANNER */
+.banner{
+    background:url("image copy 29.png") no-repeat center;
+    background-size:cover;
+    height:350px;
+}
+
+/* PRODUCTS */
+.section{
+    padding:20px;
+}
+.section h2{
+    margin-bottom:10px;
+}
+.products{
+    display:flex;
+    flex-wrap:wrap;
+}
+.product{
+    background:white;
+    width:200px;
+    margin:10px;
+    padding:10px;
+    text-align:center;
+}
+.product img{
+    width:100%;
+}
+
+/* FOOTER */
+.footer{
+    background:#131921;
+    color:white;
+    padding:20px;
+    margin-top:20px;
+}
+.footer div{
+    margin-bottom:10px;
+}
+.order-md{
+    color: #eaeaea;
+    background-color: black;
+}
+
+/* =========================
+   MOBILE RESPONSIVE FIX
+   ========================= */
+@media (max-width: 768px) {
+
+  /* HEADER */
+  .header{
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .logo{
+    text-align: center;
+    margin: 5px 0;
+  }
+
+  .search{
+    width:100%;
+    margin: 5px 0;
+  }
+
+  .search input{
+    width:100%;
+  }
+
+  .header a{
+    margin:5px 0;
+    text-align:center;
+  }
+
+  /* MENU */
+  .menu{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+  }
+
+  .menu a{
+    margin:5px;
+    font-size:13px;
+  }
+
+  /* PRODUCTS */
+  .products{
+    justify-content:center;
+  }
+
+  .product{
+    width:90%;   /* 🔥 phone me ek product full width */
+    max-width:320px;
+  }
+
+  /* BANNER */
+  .banner{
+    height:200px;
+  }
+
+  /* POPUP */
+  .mini-popup{
+    right:10px;
+    left:10px;
+    width:auto;
+  }
+}
+
+

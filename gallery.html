@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gallery | Jalaludeen Samnak Wale</title>
+
+<style>
+body{
+    margin:0;
+    font-family:Arial, sans-serif;
+    background:#f3f4f6;
+}
+
+/* HEADER */
+.header{
+    background:#131921;
+    color:white;
+    padding:20px;
+    text-align:center;
+    font-size:24px;
+    font-weight:bold;
+}
+
+/* GALLERY */
+.gallery{
+    max-width:1200px;
+    margin:auto;
+    padding:25px;
+}
+
+.gallery h2{
+    text-align:center;
+    margin-bottom:30px;
+    color:#111827;
+}
+
+.photos{
+    display:grid;
+    grid-template-columns:repeat(auto-fit, minmax(260px, 1fr));
+    gap:22px;
+}
+
+/* PRODUCT CARD */
+.photo{
+    background:white;
+    border-radius:12px;
+    box-shadow:0 8px 18px rgba(0,0,0,0.15);
+    overflow:hidden;
+    transition:0.3s;
+}
+
+.photo:hover{
+    transform:translateY(-6px);
+}
+
+.photo img{
+    width:100%;
+    height:220px;
+    object-fit:cover;
+}
+
+.photo-content{
+    padding:15px;
+    text-align:center;
+}
+
+.photo-content h4{
+    margin:5px 0;
+    font-size:16px;
+}
+
+.photo-content p{
+    font-size:14px;
+    color:#374151;
+}
+
+/* BUTTONS */
+.btn-group{
+    display:flex;
+    gap:10px;
+    margin-top:12px;
+}
+
+.btn{
+    flex:1;
+    padding:10px;
+    border:none;
+    border-radius:6px;
+    cursor:pointer;
+    font-size:14px;
+    font-weight:bold;
+}
+
+.call{
+    background:#16a34a;
+    color:white;
+}
+
+.order{
+    background:#111827;
+    color:white;
+}
+
+/* CONTACT SELLER */
+.contact-seller{
+    background:#111827;
+    color:white;
+    margin-top:50px;
+    padding:45px 20px;
+    text-align:center;
+}
+
+.contact-seller h2{
+    font-size:26px;
+    margin-bottom:10px;
+}
+
+.contact-seller p{
+    color:#d1d5db;
+    font-size:16px;
+}
+
+.contact-box{
+    margin-top:20px;
+    font-size:18px;
+}
+
+.photosmd{
+    display:grid;
+    grid-template-columns:repeat(auto-fit, minmax(250px, 1fr));
+    gap:15px;
+}
+
+.photo{
+    background:white;
+    padding:10px;
+    border-radius:8px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.15);
+    transition:0.3s;
+}
+
+.photo:hover{
+    transform:scale(1.05);
+}
+
+.photo img{
+    width:100%;
+    height:220px;
+    object-fit:cover;
+    border-radius:6px;
+}
+
+.photo p{
+    text-align:center;
+    margin:8px 0 0;
+    font-size:14px;
+    font-weight:bold;
+}
+
+/* FOOTER */
+.footer{
+    background:#020617;
+    color:#9ca3af;
+    text-align:center;
+    padding:15px;
+    font-size:14px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="header">
+📸 Product Gallery – Angoori & Samnak Atta
+</div>
+
+<div class="gallery">
+<h2>Premium Atta for Halwai, Sweet Makers & Wholesale Buyers</h2>
+
+<div class="photos">
+
+<!-- ===== 30 PRODUCTS ===== -->
+
+<!-- 1 -->
+<div class="photo">
+<img src="image copy 19.png">
+<div class="photo-content">
+<h4>Angoori Atta</h4>
+<p>Doda Barfi Special Quality</p>
+<div class="btn-group">
+<a href="tel:+919813036521"><button class="btn call">📞 Call Now</button></a>
+<a href="order-now.html"><button class="btn order">🛒 Order Now</button></a>
+</div>
+</div>
+</div>
+
+<!-- 2 -->
+<div class="photo">
+<img src="image copy.png">
+<div class="photo-content">
+<h4>Samnak Atta</h4>
+<p>Halwai Premium Grade</p>
+<div class="btn-group">
+<a href="tel:+919050810754"><button class="btn call">📞 Call Now</button></a>
+<a href="order-now.html"><button class="btn order">🛒 Order Now</button></a>
+</div>
+</div>
+</div>
+
+
+<!-- 3–30 (same pattern, only image & name change) -->
+<!-- aap sirf image3.jpg ... image30.jpg rakh dijiyega -->
+
+<!-- COPY PASTE SAME BLOCK -->
+<!-- Names already professional rakhe gaye -->
+
+<script>
+/* NO JS USED – SAFE */
+</script>
+
+</div>
+</div>
+
+<div class="photosmd">
+
+<!-- 🔽 30 PHOTOS (aap apni images ke naam change kar sakte ho) -->
+
+<div class="photo"><img src="image copy 2.png"><p>Angoori Atta</p>
+<a href="tel:+919813036521"><button class="btn call">📞 Call Now</button></a>
+<a href="order-now.html"><button class="btn order">🛒 Order Now</button></a></div>
+<div class="photo"><img src="image copy 3.png"><p>Samnak Atta</p>
+<a href="tel:+919813036521"><button class="btn call">📞 Call Now</button></a>
+<a href="order-now.html"><button class="btn order">🛒 Order Now</button></a></div>
+<div class="photo"><img src="image copy 4.png"><p>Doda Barfi Atta</p>
+<a href="tel:+919813036521"><button class="btn call">📞 Call Now</button></a>
+<a href="order-now.html"><button class="btn order">🛒 Order Now</button></a></div>
+<div class="photo"><img src="image copy 5.png"><p>Sweet Making Atta</p>
+<a href="tel:+919813036521"><button class="btn call">📞 Call Now</button></a>
+<a href="order-now.html"><button class="btn order">🛒 Order Now</button></a></div>
+<div class="photo"><img src="image copy 6.png"><p>Premium Quality</p>
+<a href="tel:+919813036521"><button class="btn call">📞 Call Now</button></a>
+<a href="order-now.html"><button class="btn order">🛒 Order Now</button></a></div>
+
+<div class="photo"><img src="image copy 7.png"><p>Angoori Atta</p>
+<a href="tel:+919813036521"><button class="btn call">📞 Call Now</button></a>
+<a href="order-now.html"><button class="btn order">🛒 Order Now</button></a></div>
+<div class="photo"><img src="image copy 8.png"><p>Samnak Atta</p>
+<a href="tel:+919813036521"><button class="btn call">📞 Call Now</button></a>
+<a href="order-now.html"><button class="btn order">🛒 Order Now</button></a></div>
+<div class="photo"><img src="image copy 9.png"><p>Halwai Special</p>
+<a href="tel:+919813036521"><button class="btn call">📞 Call Now</button></a>
+<a href="order-now.html"><button class="btn order">🛒 Order Now</button></a></div>
+<div class="photo"><img src="image copy 10.png"><p>Doda Barfi</p>
+<a href="tel:+919813036521"><button class="btn call">📞 Call Now</button></a>
+<a href="order-now.html"><button class="btn order">🛒 Order Now</button></a></div>
+<div class="photo"><img src="image copy 11.png"><p>Bulk Packing</p>
+<a href="tel:+919813036521"><button class="btn call">📞 Call Now</button></a>
+<a href="order-now.html"><button class="btn order">🛒 Order Now</button></a></div>
+
+<div class="photo"><img src="image copy 12.png"><p>Angoori Atta</p>
+<a href="tel:+919813036521"><button class="btn call">📞 Call Now</button></a>
+<a href="order-now.html"><button class="btn order">🛒 Order Now</button></a></div>
+<div class="photo"><img src="image copy 13.png"><p>Samnak Atta</p>
+<a href="tel:+919813036521"><button class="btn call">📞 Call Now</button></a>
+<a href="order-now.html"><button class="btn order">🛒 Order Now</button></a></div>
+<div class="photo"><img src="image copy 14.png"><p>Premium Atta</p>
+<a href="tel:+919813036521"><button class="btn call">📞 Call Now</button></a>
+<a href="order-now.html"><button class="btn order">🛒 Order Now</button></a></div>
+<div class="photo"><img src="image copy 15.png"><p>Sweet Industry</p>
+<a href="tel:+919813036521"><button class="btn call">📞 Call Now</button></a>
+<a href="order-now.html"><button class="btn order">🛒 Order Now</button></a></div>
+<div class="photo"><img src="image copy 16.png"><p>Pure Quality</p><a href="tel:+919813036521"><button 
+    class="btn call">📞 Call Now</button></a>
+<a href="order-now.html"><button class="btn order">🛒 Order Now</button></a></div>
+
+<div class="photo"><img src="image copy 17.png"><p>Angoori Atta</p>
+<a href="tel:+919813036521"><button class="btn call">📞 Call Now</button></a>
+<a href="order-now.html"><button class="btn order">🛒 Order Now</button></a></div>
+<div class="photo"><img src="image copy 18.png"><p>Samnak Atta</p>
+<a href="tel:+919813036521"><button class="btn call">📞 Call Now</button></a>
+<a href="order-now.html"><button class="btn order">🛒 Order Now</button></a></div>
+<div class="photo"><img src="image copy 19.png"><p>Halwa Atta</p>
+<a href="tel:+919813036521"><button class="btn call">📞 Call Now</button></a>
+<a href="order-now.html"><button class="btn order">🛒 Order Now</button></a></div>
+<div class="photo"><img src="image copy 20.png"><p>Doda Barfi</p>
+<a href="tel:+919813036521"><button class="btn call">📞 Call Now</button></a>
+<a href="order-now.html"><button class="btn order">🛒 Order Now</button></a></div>
+<div class="photo"><img src="image copy 21.png"><p>Wholesale</p>
+<a href="tel:+919813036521"><button class="btn call">📞 Call Now</button></a>
+<a href="order-now.html"><button class="btn order">🛒 Order Now</button></a></div>
+
+<div class="photo"><img src="image copy 22.png"><p>Angoori Atta</p>
+<a href="tel:+919813036521"><button class="btn call">📞 Call Now</button></a>
+<a href="order-now.html"><button class="btn order">🛒 Order Now</button></a></div>
+<div class="photo"><img src="image copy 23.png"><p>Samnak Atta</p>
+<a href="tel:+919813036521"><button class="btn call">📞 Call Now</button></a>
+<a href="order-now.html"><button class="btn order">🛒 Order Now</button></a></div>
+<div class="photo"><img src="image copy 24.png"><p>Sweet Making</p>
+<a href="tel:+919813036521"><button class="btn call">📞 Call Now</button></a>
+<a href="order-now.html"><button class="btn order">🛒 Order Now</button></a></div>
+<div class="photo"><img src="image copy 25.png"><p>Premium Quality</p>
+<a href="tel:+919813036521"><button class="btn call">📞 Call Now</button></a>
+<a href="order-now.html"><button class="btn order">🛒 Order Now</button></a></div>
+<div class="photo"><img src="image copy 26.png"><p>Bulk Supply</p>
+<a href="tel:+919813036521"><button class="btn call">📞 Call Now</button></a>
+<a href="order-now.html"><button class="btn order">🛒 Order Now</button></a></div>
+
+<div class="photo"><img src="image copy 27.png"><p>Angoori Atta</p>
+<a href="tel:+919813036521"><button class="btn call">📞 Call Now</button></a>
+<a href="order-now.html"><button class="btn order">🛒 Order Now</button></a></div>
+<div class="photo"><img src="image copy 28.png"><p>Samnak Atta</p>
+<a href="tel:+919813036521"><button class="btn call">📞 Call Now</button></a>
+<a href="order-now.html"><button class="btn order">🛒 Order Now</button></a></div>
+<div class="photo"><img src="image copy 29.png"><p>Halwai Grade</p>
+<a href="tel:+919813036521"><button class="btn call">📞 Call Now</button></a>
+<a href="order-now.html"><button class="btn order">🛒 Order Now</button></a></div>
+<div class="photo"><img src="image copy.png"><p>Doda Barfi</p>
+<a href="tel:+919813036521"><button class="btn call">📞 Call Now</button></a>
+<a href="order-now.html"><button class="btn order">🛒 Order Now</button></a></div>
+<div class="photo"><img src="image.png"><p>Best Quality</p>
+<a href="tel:+919813036521"><button class="btn call">📞 Call Now</button></a>
+<a href="order-now.html"><button class="btn order">🛒 Order Now</button></a></div>
+<div class="photo"><img src="WhatsApp Image 2025-12-12 at 21.13.57_d944d96d.jpg"><p>Doda Barfi</p>
+<a href="tel:+919813036521"><button class="btn call">📞 Call Now</button></a>
+<a href="order-now.html"><button class="btn order">🛒 Order Now</button></a></div>
+<div class="photo"><img src="WhatsApp Image 2025-12-12 at 21.13.58_78dd653c.jpg"><p>Best Quality</p>
+<a href="tel:+919813036521"><button class="btn call">📞 Call Now</button></a>
+<a href="order-now.html"><button class="btn order">🛒 Order Now</button></a></div>
+
+</div>
+
+<!-- CONTACT SELLER -->
+<div class="contact-seller">
+<h2>📞 Contact Seller</h2>
+<p>For Bulk Orders, Wholesale Rates & Long-Term Supply</p>
+
+<div class="contact-box">
+📱 Phone: +91 9813036521 / +91 9050810754 <br><br>
+📧 Email: mashroofkhan101@gmail.com <br><br>
+📍 Location: Haryana, India
+</div>
+</div>
+
+<div class="footer">
+© Jalaludeen Samnak Wale | Trusted Atta Supplier
+</div>
+
+</body>
+</html>
